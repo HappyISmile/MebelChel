@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MebelChel</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header_wrap">
+            <img src="img/main-logo.png" alt="Логотип MebelChel" class="header_logo_img">
+            <p class="logo_title line upper_text">ИЗГОТОВЛЕНИЕ МЕБЕЛИ <br> НА ЗАКАЗ В ЧЕЛЯБИНСКЕ</p>
+            <nav class="header_nav">
+                <ul class="header_list">
+                    <li class="header_item">
+                        <a href="#catalog" class="header_link upper_text">каталог</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#send_worker" class="header_link upper_text">заявка</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#reviews" class="header_link upper_text">отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="telefon">
+                <p class="tel_number"><a href="tel:+79994443222"></a>8 (999) 444-32-22</a></p> 
+                <p class="date">c 9:00 до 18:00 </p>
+            </div>
+        </div>
+    </header>
+    <section class="primary">
+        <div class="container">
+            <div class="primary_info">
+                <h1 class="primary_title upper_text">СОЗДАВАЯ СВОЕ ПРОСТРАНСТВО В ДОМЕ <br> ТОЛЬКО ВЫ РЕШАЕТЕ:</h1>
+                <h1 class="sec_primary_title upper_text">ПОДСТРАИВАТЬСЯ ПОД МЕБЕЛЬ <br> ИЛИ ВЫБИРАТЬ МЕБЕЛЬ ПОД СЕБЯ</h1>                
+            </div>
+            <div class="primary_send">
+                <button class="send_button upper_text">ВЫЗВАТЬ ЗАМЕРЩИКА <img src="img/shake-hand.png" alt="иконка руки"></button>
+                <p>ЗАКАЖИТЕ ВЫЕЗД ЗАМЕРЩИКА НА ДОМ<br> ЭТО БЕСПЛАТНО</p>
+            </div>            
+        </div>
+    </section>
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <div class="catalog_menu">
+                <p class="line">КАТАЛОГ</p>
+                <nav class="catalog_nav">
+                    <ul class="catalog_list">
+                        <li class="catalog_item">
+                            <a href="" class="catalog_link">Шкаф-купе</a>
+                        </li>
+                        <li class="catalog_item">
+                            <a href="" class="catalog_link">Офисная</a>
+                        </li>
+                        <li class="catalog_item">
+                            <a href="" class="catalog_link">Кухни</a>
+                        </li>
+                        <li class="catalog_item">
+                            <a href="" class="catalog_link">Детская</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="catalog_list">
+                <div class="catalog_one">
+                    <img src="img/1 1.png" alt="фото детской">
+                    <div class="catalog_title_price">
+                        <div >
+                            <p class="catalog_title upper_text">детская</p>
+                            <p class="catalog_price">ОТ 15 000</p>
+                        </div>
+                        <button class="order_button upper_text">заказать</button>
+                    </div>
+                </div>
+                <div class="catalog_one">
+                    <img src="img/2 1.png" alt="фото шкафа">
+                    <div class="catalog_title_price">
+                        <div >
+                            <p class="catalog_title upper_text">шкаф</p>
+                            <p class="catalog_price">ОТ 39 000</p>
+                        </div>
+                        <button class="order_button upper_text">заказать</button>
+                    </div>
+                </div>
+                <div class="catalog_one">
+                    <img src="img/3 1.png" alt="фото кухни">
+                    <div class="catalog_title_price">
+                        <div >
+                            <p class="catalog_title upper_text">кухня</p>
+                            <p class="catalog_price">ОТ 78 000</p>
+                        </div>
+                        <button class="order_button upper_text">заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="send_worker" class="send_worker">
+        <div class="container send_worker_wrap">
+            <img src="img/image-for-form.png" alt="фото два дивана">
+            <div class="send_worker_form">
+                <h3>Вызвать замерщика на дом</h3>
+                <div class="send_worker_fio_tel">
+                    <label for="send_worker_fio">Имя</label>
+                    <input id="send_worker_fio" type="text"></input>
+                    <br>
+                    <label for="send_worker_tel">Телефон</label>
+                    <input id="send_worker_tel" type="tel"></input>
+                    <div class="send_worker_but">
+                        <p>*Нажимая кнопку, я даю свое<br> согласение на обработку<br> персональных данных</p>
+                        <button class="send_worker_button upper_text">оправить</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="reviews">
+        <div class="container reviews_wrap">
+            <div class="reviews_menu">
+                <p class="reviews_title line upper_text">отзывы</p>
+                <div class="reviews_next">
+                    <button class="reviews_button"><img src="img/arrow-left 1.png" alt="стрелка налево"></button>
+                    <button class="reviews_button"><img src="img/arrow 1.png" alt="стрелка направо"></button> 
+                </div>
+            </div>
+            <div class="reviews_all">
+                <div class="reviews_column">
+                    <div class="reviews_one">
+                        <img src="img/about_pic.png" alt="фото Федоров Никита">
+                        <h2 class="reviews_fio">Федоров <br>Никита</h2>
+                        <img class="img_vk" src="img/vk.png" alt="иконка вк"> 
+                    </div>
+                    <div class="reviews_title">
+                        <p>Заказывал <nobr>шкаф-купе</nobr> в&nbsp;этой компании. Очень доволен. Ребята посоветовали хороший дизайн и&nbsp;помогли подобрать материалы. Изготовили оперативно.</p>
+                    </div>
+                </div>
+                <div class="reviews_column">
+                    <div class="reviews_one">
+                        <img src="img/about_pic2.png" alt="Фото Рязанов Иван">
+                        <h2 class="reviews_fio">Рязанов<br>Иван </h2>
+                        <img class="img_vk" src="img/vk.png" alt="иконка вк">
+                    </div>
+                    <div class="reviews_title">
+                        <p>Благодарю сотрудников за&nbsp;мою новую кухню. <nobr>Дизайнер-консультант</nobr> помогла<br />
+                            с&nbsp;выбором материалов, цветов и&nbsp;самой фурнитуры. Установщик быстро<br />
+                            и&nbsp;качественно установил кухню, дал подробную консультацию по&nbsp;эксплуатации.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+            <iframe class="" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad0bbed1f64749a19256eab9d0be811b12cb12ac7e42b4d5f8493c5ead1368c6e&amp;source=constructor" width="1280" height="720" frameborder="0"></iframe>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer_confidence">
+                <div class="confidence">
+                    <p class="company"><span class="colortext">MebelChel</span>© 2014-2020</p>
+                    <p class="pol">Политика конфиденциальности <br> Копирование материалов запрещено</p>
+                </div>
+                <div class="menu_nav">
+                    <ul class="menu_nav_list">
+                        <li>Каталог</li>
+                        <li>Заявка</li>
+                        <li>Отзывы</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <img src="img/vk.png" alt="иконка вк">
+                    <img src="img/inst 1.png" alt="иконка инст.">
+                </div>
+                <div class="contact">
+                    <div><a class="tel_number" href="tel:+79994443322">8 (999) 444-33-22</a>
+                        <p class="address">г. Челябинск, ул. Ленина, д.66</p>
+                    </div>
+                    <div class="email"><a href="mailto:mebelchel@yandex.ru">mebelchel@yandex.ru</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

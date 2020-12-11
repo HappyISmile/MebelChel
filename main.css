@@ -1,0 +1,610 @@
+font-face {
+    font-family: 'ubuntu';
+    src: url("fonts/ubuntu.woff") format("woff"),
+        url("fonts/ubutu.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+font-face {
+    font-family: 'ubuntumedium';
+    src: url("fonts/ubuntu-medium.woff") format("woff"),
+        url("fonts/ubuntu-medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+body {
+    margin: 0;
+    font-family: 'ubuntu', serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    background-color:#E5E5E5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.line {
+    border-left: 5px solid #FFA200;
+    margin-left: 20px; 
+    padding-left: 20px;
+    
+}
+
+.upper_text {
+    text-transform: uppercase;
+}
+
+.container_wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    height: auto; 
+}
+
+/* header */
+.header {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.header img {
+    padding: 20px;
+}
+
+.header .logo_title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header .telefon {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header_wrap {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    height: 97px;
+}
+
+.header_nav {
+    display: flex;
+}
+
+.header_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header_link {
+    padding: 40px 30px;
+    font-family: 'ubuntubold', serif;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    transition: color ease-in 0.4s;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.header_link:hover {
+    color: #FFA200;
+    ;
+}
+.header_item:first-child .header_link{
+    padding-left: 100px;
+}
+
+.header_item:last-child .header_link{
+    padding-right: 200px;
+}
+
+.telefon {
+    text-align: end;
+}
+
+.tel_number {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.date {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.primary {
+    background-image: url(img/main-picture.png);
+    background-size: cover;
+}
+
+.primary_info {
+    padding-top: 300px;
+    padding-left: 120px;
+}
+
+.primary_title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 0;
+    
+}
+
+.sec_primary_title {
+    color: #FFA200;
+    text-transform: uppercase;
+    line-height: 57px;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.primary_send {
+    display: flex;
+    padding-top: 90px;
+    padding-left: 120px;
+    padding-bottom: 280px;
+}
+
+.send_button {
+    width: 290px;
+    height: 61px;
+    display: inline;
+    color: #F3F3F3;
+    border-radius: 3px;
+    background-color: #FFA200;
+    font-size: 18px;
+    border: none;
+}
+
+.send_button:hover {
+    background: #E99400;
+}
+
+.order_button {
+    width: 203px;
+    height: 50px;
+    display: inline;
+    color: #F3F3F3;
+    border-radius: 3px;
+    background-color: #FFA200;
+    font-size: 18px;
+    border: none;
+    margin-left: 55px;
+    margin-top: 31px;
+}
+
+.order_button:hover {
+    background: #E99400;
+}
+
+.send_button img {
+    vertical-align: middle;
+}
+
+.primary_send p {
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.catalog {
+    position: relative;
+    display: inline-block;
+    top: -100px;
+    background-color: #ffffff;
+    left: 120px;
+    margin-left: 60px;
+    width: 1200px;
+}
+
+.catalog_menu {
+    display: flex;
+}
+
+.catalog_menu p{
+    padding: 20px;
+    font-weight: 500;
+}
+
+.catalog_nav {
+    margin-left: 424px;
+}
+
+.catalog_list {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 20px 0 0 0;
+    list-style: none;
+}
+
+.catalog_link {
+    margin: 37px 30px 71px 30px;
+    font-family: 'ubuntubold', serif;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.catalog_item:first-child .catalog_link{
+    margin-left: 0;
+}
+
+.catalog_list {
+    display: flex;
+    margin-bottom: 61px;
+}
+
+.catalog_one {
+    margin-right: 25px;
+}
+
+.catalog_one:last-child {
+    margin-right: 0;
+}
+
+.catalog_title {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 1px;
+}
+
+.catalog_price {
+    margin-top: 0;
+    color: #FFA200;
+    font-weight: 500;
+}
+
+.catalog_title_price {
+    display: flex;
+    
+}
+
+.send_worker {
+    margin-bottom: 110px;
+}
+
+.send_worker_wrap {
+    display: flex;
+}
+
+.send_worker_form {
+    padding-left: 88px;
+}
+
+.send_worker_form h3 {
+    color: #FFA200;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 41px;
+}
+
+.send_worker_form label {
+    font-size: 30px;
+}
+
+.send_worker_fio_tel {
+    text-align: end;
+}
+
+.send_worker_fio_tel label {
+    padding-right: 38px;
+}
+
+.send_worker_form input{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    width: 350px;
+    
+}
+
+.send_worker_but {
+    display: flex;
+}
+
+.send_worker_but p{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.send_worker_button {
+    width: 203px;
+    height: 50px;
+    display: inline;
+    color: #F3F3F3;
+    border-radius: 3px;
+    background-color: #FFA200;
+    font-size: 18px;
+    border: none;
+    margin-left: 106px;
+    margin-top: 31px;
+}
+
+.send_worker_button:hover {
+    background: #E99400;
+}
+
+.reviews_wrap {
+    background-color: #ffffff;
+    left: 130px;
+    padding: 0;
+}
+
+.reviews_title {
+    padding-top: 10px;
+}
+
+.reviews_menu {
+    display: flex;
+}
+
+.reviews_menu p {
+    font-weight: 500;
+}
+
+.reviews_next {
+    margin-top: 36px;
+}
+
+.reviews_next {
+    margin-left: 570px;
+}
+
+.reviews_all {
+    display: flex;
+}
+
+.reviews_column {
+    display: flex;
+    flex-direction: column;
+    padding-right: 110px;
+}
+
+.reviews_one {
+    display: flex;
+    margin-left: 43px;
+    height: 100px;
+    width: 50%;
+}
+
+.reviews_fio {
+    padding-left: 20px;
+    padding-right: 160px;
+}
+
+.img_vk {
+    width: 50px;
+    height: 50px;
+    margin-top:30px;
+}
+
+.reviews_one{
+    vertical-align: center;
+}
+.reviews_fio {
+    line-height: 34px;
+    font-size: 30px;
+}
+
+.reviews_title {
+    display: flex;
+    margin-left: 40px;
+    width: 500px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.reviews_button {
+    border: none;
+    background-color: #ffffff;
+}
+
+.reviews_button:hover {
+    background: #E99400;
+}
+
+
+.map {
+    top: 2390px;
+    left: 50px;
+}
+
+.footer {
+    margin-top: 80px;
+}
+
+.footer_wrap {
+    display: flex;
+}
+
+.footer_confidence {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confidence .company {
+    font-size: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.confidence .pol {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 0;
+    padding-top: 53px;
+
+}
+
+.colortext {
+    color: #FFA200;
+}
+
+.menu_nav_list {
+    list-style: none;
+}
+
+.menu_nav_list li {
+    padding-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.social img{
+    padding-bottom: 40px;
+}
+
+.contact .tel_number {
+    color: #000000;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 24px;
+}
+
+.contact .address {
+    margin-top: 0;
+}
+
+.contact .email {
+    font-weight: 600;
+    
+}
+
+.contact .email a {
+    text-decoration: none;
+    color: #000000;
+}
+
+@media(max-width:1200px){
+    .primary_title{
+        font-size: 40px;
+    }
+
+    .sec_primary_title {
+        font-size: 40px;
+    }
+
+    .catalog {
+        left: 60px;
+    }
+
+    .send_worker_form input {
+        width: 300px;
+    }
+
+    .reviews_next {
+        margin-left: 530px;
+    }
+
+    .map {
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:768px){
+     
+    .primary {
+        background-image: url(img/main-picture-tablet1.png);
+    }
+
+    .primary_info {
+        padding-left: 0;
+        width: 1000px;
+    }
+    .primary_title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .sec_primary_title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .primary_send {
+        padding-left: 0;
+        width: 1000px;
+    }
+
+    .send_button {
+        width: 290px;
+    }
+
+    .send_worker_form input {
+        width: 250px;
+    }
+
+    .send_worker_fio_tel label {
+        padding-right: 20px;
+    }
+
+    .catalog_menu {
+        display: block;
+    }
+
+    .catalog_nav {
+        margin-left: 0;
+    }
+
+    .catalog_list {
+        justify-content: space-around;
+    }
+
+    .reviews_next {
+        margin-left: 0;
+    }
+
+    .reviews_all {
+        flex-direction: column;
+    }
+
+    .reviews_fio {
+        padding-right: 400px;
+    }
+
+    .reviews_title {
+        width: 648px;
+    }
+
+    .footer {
+        padding-left: 160px;
+    }
+}
